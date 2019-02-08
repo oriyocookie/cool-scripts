@@ -7,7 +7,7 @@
 
 for i in {0..9}{0..9}{0..9}{0..9}
 do
-	echo $i >> passwords #creates a dictionary 
+	echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i" >> passwords #creates a dictionary 
 done
 
 #create variable called portnumber
