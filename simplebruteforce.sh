@@ -1,6 +1,5 @@
 #!/bin/bash
-# I used this for bandit wargames level 24. Uncomment the portnumber if you want to use it
-
+# I used this for bandit wargames level 24. Dont do this in real life environment, you'll get caught lol
 #simple script that will generate and echo out 100,000 combinations of a 4 digit pincode
 #You can use this to echo into a telnet/nc client for example, if a daemon is listening on a certain port for a password
 
