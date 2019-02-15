@@ -41,30 +41,3 @@ case [yY][eE][sS]:
 	    breaksw
 	endsw
 
-
-
-
-	#foreach i ($argv)
-	#    if ($i !~ *.c) then
-	    #	echo "$i is not a .c program"
-	    #	continue
-	    #    else
-	    #	echo "$i is a .c program"
-	    #    endif
-	    #
-	    #    echo "check file ~/backup/$i:t"
-	    #
-	    #    if(! -r ~/backup/$i:t) then
-		#	echo "$i:t not in backup...not cp\'ed"
-		#	continue
-		#    endif
-		#
-		#    echo $status
-		#    cmp -s $i ~/backup/$i:t
-		#    if ($status != 0) then
-		    #	echo "making new backup of $i"
-		    #	cp $i ~/backup/$i:t
-		    #    endif
-		    #end
-
-		    #stat -c%Y people.sh
