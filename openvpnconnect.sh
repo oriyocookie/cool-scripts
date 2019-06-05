@@ -3,6 +3,7 @@ read -p "US(1), NL(2), JP(3), JP(4)" whichserver
 
 #Echo username but in a secure way
 #echo password but in a secure way
+#the password and username are hidden for obvious reasons :P
 
 case $whichserver in
 	1)
